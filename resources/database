@@ -1,0 +1,9 @@
+CREATE TABLE `documents` (
+`id` int(11) NOT NULL AUTO_INCREMENT,
+  `po` varchar(100) NOT NULL,
+  `country` varchar(100) NOT NULL,
+  `condition` varchar(100) NOT NULL,
+  `note` text NOT NULL,
+  PRIMARY KEY (id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
